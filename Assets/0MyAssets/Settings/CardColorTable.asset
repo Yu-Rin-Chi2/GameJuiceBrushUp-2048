@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab6bf11a4115ce141a58290ea909a1d0, type: 3}
+  m_Name: CardColorTable
+  m_EditorClassIdentifier: 
+  Entries:
+  - Value: 2
+    BackgroundColor: {r: 0.93333334, g: 0.89411765, b: 0.85490197, a: 1}
+    TextColor: {r: 0.46274510, g: 0.43137255, b: 0.39607844, a: 1}
+  - Value: 4
+    BackgroundColor: {r: 0.93333334, g: 0.87843137, b: 0.78431374, a: 1}
+    TextColor: {r: 0.46274510, g: 0.43137255, b: 0.39607844, a: 1}
+  - Value: 8
+    BackgroundColor: {r: 0.94901961, g: 0.69411765, b: 0.47058824, a: 1}
+    TextColor: {r: 0.97647059, g: 0.96470588, b: 0.94901961, a: 1}
+  - Value: 16
+    BackgroundColor: {r: 0.96078432, g: 0.58431373, b: 0.38823529, a: 1}
+    TextColor: {r: 0.97647059, g: 0.96470588, b: 0.94901961, a: 1}
+  - Value: 32
+    BackgroundColor: {r: 0.96470588, g: 0.48627451, b: 0.37254902, a: 1}
+    TextColor: {r: 0.97647059, g: 0.96470588, b: 0.94901961, a: 1}
+  - Value: 64
+    BackgroundColor: {r: 0.96078432, g: 0.36862745, b: 0.23137255, a: 1}
+    TextColor: {r: 0.97647059, g: 0.96470588, b: 0.94901961, a: 1}
+  - Value: 128
+    BackgroundColor: {r: 0.92941176, g: 0.81176471, b: 0.44705882, a: 1}
+    TextColor: {r: 0.97647059, g: 0.96470588, b: 0.94901961, a: 1}
+  - Value: 256
+    BackgroundColor: {r: 0.92941176, g: 0.80000000, b: 0.38039216, a: 1}
+    TextColor: {r: 0.97647059, g: 0.96470588, b: 0.94901961, a: 1}
+  - Value: 512
+    BackgroundColor: {r: 0.92941176, g: 0.78431373, b: 0.31372549, a: 1}
+    TextColor: {r: 0.97647059, g: 0.96470588, b: 0.94901961, a: 1}
+  - Value: 1024
+    BackgroundColor: {r: 0.92941176, g: 0.77254902, b: 0.24705882, a: 1}
+    TextColor: {r: 0.97647059, g: 0.96470588, b: 0.94901961, a: 1}
+  - Value: 2048
+    BackgroundColor: {r: 0.92941176, g: 0.76078431, b: 0.18039216, a: 1}
+    TextColor: {r: 0.97647059, g: 0.96470588, b: 0.94901961, a: 1}

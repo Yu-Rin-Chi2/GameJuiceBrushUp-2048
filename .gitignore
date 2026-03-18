@@ -76,6 +76,10 @@ mono_crash.*
 # Crashlytics generated file
 crashlytics-build.properties
 
+# DOTween (Asset Store asset - redistribution not allowed)
+/[Aa]ssets/Plugins/Demigiant/
+/[Aa]ssets/Plugins/Demigiant.meta
+
 # TestRunner generated files
 InitTestScene*.unity*
 
@@ -97,3 +101,26 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/StreamingAssets/aa/Android/*
+
+# Mac OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.env.local
+.env.*.local
