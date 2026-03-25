@@ -50,10 +50,7 @@ Assets/0MyAssets/
 └── Scenes/PlayScene.unity
 
 docs/
-├── CLASS_REFERENCE.md     # クラス構造・アーキテクチャ・Inspector設定
-├── EXTENSION_GUIDE.md     # アニメーション・SE・エフェクト拡張ガイド
-├── FLOW.md                # 処理フロー詳細
-└── NAMING.md              # 命名規則
+└── EXTENSION_GUIDE.md     # 拡張ポイント・ログ出力・Inspector設定
 ```
 
 ---
@@ -69,8 +66,4 @@ docs/
 
 ## 設計ドキュメント
 
-詳細な設計情報は docs フォルダを参照：
-- [CLASS_REFERENCE.md](docs/CLASS_REFERENCE.md) - クラス構造・アーキテクチャ・Inspector設定
-- [EXTENSION_GUIDE.md](docs/EXTENSION_GUIDE.md) - アニメーション・SE・エフェクト拡張ガイド
-- [FLOW.md](docs/FLOW.md) - 処理フロー詳細
-- [NAMING.md](docs/NAMING.md) - 命名規則
+- [EXTENSION_GUIDE.md](docs/EXTENSION_GUIDE.md) - 拡張ポイント・ログ出力・Inspector設定
