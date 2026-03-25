@@ -38,6 +38,7 @@ public class TurnController : MonoBehaviour
         InitializeBoard();
         _inputController.OnSwipe += HandleSwipe;
         _inputController.OnReset += ResetGame;
+        _inputController.OnDebugClear += HandleDebugClear;
     }
 
     private void OnDestroy()
@@ -45,6 +46,7 @@ public class TurnController : MonoBehaviour
         // クリーンアップ時にイベント接続を解除
         _inputController.OnSwipe -= HandleSwipe;
         _inputController.OnReset -= ResetGame;
+        _inputController.OnDebugClear -= HandleDebugClear;
     }
 
     /// <summary>方向イベントハンドラ。処理中やゲーム終了時は何もしない。</summary>
@@ -107,6 +109,15 @@ public class TurnController : MonoBehaviour
         _cardRegistry.Reset();
         _cardSpawner.SpawnCard();
         _cardSpawner.SpawnCard();
+    }
+
+    /// <summary>デバッグ用：0キーで強制クリア。</summary>
+    private void HandleDebugClear()
+    {
+        if (_isProcessing || _gameStateManager.IsGameOver || _gameStateManager.IsCleared)
+            return;
+
+        _gameStateManager.SetCleared();
     }
 
     /// <summary>ゲームをリセット。全状態を初期化し、ボードを再構築。</summary>
