@@ -10,11 +10,11 @@ Unity 6 と uGUI で 2048 パズルゲームを実装しています。基本的
 
 ## 遊び方
 
-| 操作                          | 動作                         |
-| ----------------------------- | ---------------------------- |
-| **矢印キー** / **WASD**      | カードを指定の方向にスライド |
+| 操作                            | 動作                         |
+| ------------------------------- | ---------------------------- |
+| **矢印キー** / **WASD**         | カードを指定の方向にスライド |
 | **スワイプ**（タッチ / マウス） | カードを指定の方向にスライド |
-| **R**                         | ゲームをリセット             |
+| **R**                           | ゲームをリセット             |
 
 1. **スライド** — 矢印キーを押すと、すべてのカードがその方向に可能な限り移動します。
 2. **マージ** — 同じ数字のカードが隣接すると自動合体（1 ターン 1 回まで）。
@@ -42,6 +42,8 @@ git clone https://github.com/Yu-Rin-Chi2/GameJuiceBrushUp-2048.git
 2. Unity エディタで **Window → Package Manager** → **My Assets** → DOTween を検索 → **Import**
 3. `Assets/0MyAssets/Scenes/PlayScene.unity` を開く
 4. **Play**（`Ctrl + P`）
+
+> **Note:** クローンした状態ではDOTweenが入っていないので、コンパイルエラーが発生します。DOTween をインポートすると解消されます。
 
 ---
 
@@ -72,7 +74,7 @@ Assets/0MyAssets/
 └── Scenes/             # PlayScene.unity
 ```
 
-> クラス詳細は [docs/CLASS_REFERENCE.md](docs/CLASS_REFERENCE.md) を参照してください。
+> 拡張ポイントや処理フローの概要は [docs/EXTENSION_GUIDE.md](docs/EXTENSION_GUIDE.md) を参照してください。
 
 ---
 
@@ -90,12 +92,9 @@ Assets/0MyAssets/
 
 ## ドキュメント
 
-| ドキュメント                                       | 内容                                       |
-| -------------------------------------------------- | ------------------------------------------ |
-| [docs/CLASS_REFERENCE.md](docs/CLASS_REFERENCE.md) | クラス構造・アーキテクチャ・Inspector 設定 |
-| [docs/EXTENSION_GUIDE.md](docs/EXTENSION_GUIDE.md) | アニメーション・SE・エフェクトの拡張ガイド |
-| [docs/FLOW.md](docs/FLOW.md)                       | ターンごとの処理フロー詳細                 |
-| [docs/NAMING.md](docs/NAMING.md)                   | C# コーディング規約・ゲーム用語            |
+| ドキュメント                                       | 内容                                   |
+| -------------------------------------------------- | -------------------------------------- |
+| [docs/EXTENSION_GUIDE.md](docs/EXTENSION_GUIDE.md) | 拡張ポイント・ログ出力・Inspector 設定 |
 
 ---
 
